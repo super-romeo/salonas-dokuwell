@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://salonas.dokuwell.com/sitemap.xml
