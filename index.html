@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Grožio salonams ir kirpykloms: klientai registruojasi internetu, meistrų kalendorius vienoje vietoje, SMS priminimai prieš vizitą — lietuviškai.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Rezervo</a></div>
-  <nav class="top"><a href="#ka" data-ev="click_nav_ka">Ką gausite</a><a href="price.html" data-ev="click_nav_kaina">Kaina</a><a href="#pavyzdys" data-ev="click_nav_pavyzdys">Pavyzdys</a><a href="#start" data-ev="click_nav_start">Pradėti</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Rezervo</a>
+  <nav><a href="#ka" data-ev="click_nav_ka">Ką gausite</a><a href="price.html" data-ev="click_nav_kaina">Kaina</a><a href="#pavyzdys" data-ev="click_nav_pavyzdys">Pavyzdys</a><a href="#start" data-ev="click_nav_start">Pradėti</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Registracija internetu grožio salonui ir kirpyklai — kalendorius ir SMS priminimai lietuviškai</h1>
-    <p class="sub">Grožio salonams, kirpykloms ir nagų studijoms: klientai patys pasirenka paslaugą, meistrą ir laiką internetu, visi meistrai mato savo dieną viename kalendoriuje, o prieš vizitą klientas gauna SMS priminimą.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Man to reikia</a>
-    <p class="cta-note">Ankstyvoji prieiga · Šiame puslapyje mokėjimai kol kas nepriimami</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Grožio salonams, kirpykloms ir nagų studijoms</p>
+      <h1 class="rise" style="--i:1" data-len="long">Registracija internetu grožio salonui ir kirpyklai&nbsp;<span class="soft">— kalendorius ir SMS priminimai lietuviškai</span></h1>
+      <p class="rise" style="--i:2">Grožio salonams, kirpykloms ir nagų studijoms: klientai patys pasirenka paslaugą, meistrą ir laiką internetu, visi meistrai mato savo dieną viename kalendoriuje, o prieš vizitą klientas gauna SMS priminimą.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Man to reikia</a>
+      <p class="meta rise" style="--i:4">Ankstyvoji prieiga · Šiame puslapyje mokėjimai kol kas nepriimami</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" font-weight="600" fill="#0a1524">Rezervo</text><line x1="130" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="292" font-size="32" font-weight="600" fill="#0a1524">paslaugą</text><rect x="130" y="370" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="402" font-size="32" font-weight="600" fill="#0a1524">meistrą</text><rect x="130" y="480" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="512" font-size="32" font-weight="600" fill="#0a1524">laiką</text><rect x="200" y="580" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="320" font-size="34" font-weight="600" fill="#0a1524">Kalendorius</text><rect x="730" y="400" width="52" height="220" rx="8" fill="#ffffff" /><rect x="820" y="470" width="52" height="150" rx="8" fill="#b9c3d2" /><rect x="910" y="360" width="52" height="260" rx="8" fill="#12397a" /><rect x="1000" y="440" width="52" height="180" rx="8" fill="#ffffff" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Salonams</dt><dd>Grožio salonams</dd></div>
+      <div><dt>Klientai</dt><dd>Pasirenka paslaugą</dd></div>
+      <div><dt>Sistema</dt><dd>Naršyklėje ir telefone</dd></div>
+      <div><dt>Prieiga</dt><dd>Ankstyvoji prieiga</dd></div>
+    </dl>
+  </section>
 
   <section id="ka" data-view="features_view">
-    <h2>Ką gausite</h2>
-    <div class="grid">
-      <div class="card"><b>Registracija internetu</b><span>Klientai renkasi paslaugą, meistrą ir laisvą laiką savo telefone.</span><br><a class="btn" href="price.html" data-ev="feature_registracija">Man to reikia</a></div>
-      <div class="card"><b>Meistrų kalendorius</b><span>Kiekvieno meistro diena, paslaugų trukmė ir pertraukos vienoje vietoje.</span><br><a class="btn" href="price.html" data-ev="feature_kalendorius">Man to reikia</a></div>
-      <div class="card"><b>SMS priminimai</b><span>Priminimas klientui prieš vizitą, kad mažiau vizitų liktų neįvykusių.</span><br><a class="btn" href="price.html" data-ev="feature_sms">Man to reikia</a></div>
-      <div class="card"><b>Klientų istorija</b><span>Kiekvieno kliento vizitai, paslaugos ir pastabos.</span><br><a class="btn" href="price.html" data-ev="feature_klientai">Man to reikia</a></div>
+    <div class="stack"><h2>Ką gausite</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="30" font-weight="600" fill="#0a1524">Registracija internetu</text><rect x="270" y="180" width="260" height="320" rx="32" fill="#ffffff" stroke="#12397a" stroke-width="4" /><rect x="294" y="214" width="212" height="200" rx="12" fill="#dfe8f7" /><rect x="294" y="430" width="212" height="36" rx="18" fill="#12397a" /><circle cx="400" cy="470" r="10" fill="#ffffff" /></svg></div>
+        <h3>Registracija internetu</h3><p>Klientai renkasi paslaugą, meistrą ir laisvą laiką savo telefone.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_registracija">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Meistrų kalendorius</text><rect x="130" y="210" width="100" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="210" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="300" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="390" width="100" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Meistrų kalendorius</h3><p>Kiekvieno meistro diena, paslaugų trukmė ir pertraukos vienoje vietoje.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kalendorius">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">SMS priminimai</text><text x="120" y="240" font-size="32" font-weight="600" fill="#0a1524">SMS</text><rect x="120" y="268" width="460" height="40" rx="20" fill="#12397a" /><text x="120" y="370" font-size="32" font-weight="600" fill="#0a1524">priminimą</text><rect x="120" y="398" width="300" height="40" rx="20" fill="#dde2ea" /><rect x="120" y="460" width="520" height="24" rx="12" fill="#b9c3d2" /></svg></div>
+        <h3>SMS priminimai</h3><p>Priminimas klientui prieš vizitą, kad mažiau vizitų liktų neįvykusių.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sms">Man to reikia</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="155" font-size="34" font-weight="600" fill="#0a1524">Klientų istorija</text><rect x="120" y="220" width="36" height="36" rx="8" fill="#dfe8f7" /><rect x="176" y="226" width="460" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="300" width="36" height="36" rx="8" fill="#12397a" /><rect x="176" y="306" width="380" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="380" width="36" height="36" rx="8" fill="#dfe8f7" /><rect x="176" y="386" width="420" height="24" rx="12" fill="#dde2ea" /><rect x="120" y="460" width="36" height="36" rx="8" fill="#dde2ea" /><rect x="176" y="466" width="300" height="24" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Klientų istorija</h3><p>Kiekvieno kliento vizitai, paslaugos ir pastabos.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_klientai">Man to reikia</a>
+      </article>
     </div>
   </section>
 
-  <section id="pavyzdys" data-view="example_view">
-    <h2>Pavyzdys (išgalvoti duomenys)</h2>
-    <p class="fine">Kirpykla su trimis meistrais Kaune. Klientė vakare užsiregistruoja internetu dažymui pas Ingą šeštadienį 10:00. Penktadienį gauna SMS priminimą. Inga ryte mato savo dieną: 5 vizitai, prie dažymo — ankstesnio karto spalvos numeris iš kliento istorijos.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Pasirinkite planą</a>
+  <section id="pavyzdys" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Pavyzdys</h2>
+      <p>Kirpykla su trimis meistrais Kaune. Klientė vakare užsiregistruoja internetu dažymui pas Ingą šeštadienį 10:00. Penktadienį gauna SMS priminimą. Inga ryte mato savo dieną: 5 vizitai, prie dažymo — ankstesnio karto spalvos numeris iš kliento istorijos.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Pasirinkite planą</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">Kaune</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">dažymui</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="34" font-weight="600" fill="#0a1524" text-anchor="middle">priminimą</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">5 vizitai</text><rect x="170" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="248" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="326" y="440" width="58" height="58" rx="8" fill="#12397a" /><rect x="404" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><rect x="482" y="440" width="58" height="58" rx="8" fill="#dfe8f7" /><text x="170" y="620" font-size="32" fill="#566174">šeštadienį</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Kaip tai veikia</h2>
-    <p>Daugelyje grožio salonų ir kirpyklų registracija vis dar vyksta telefonu, žinutėmis socialiniuose tinkluose ir popieriniame žurnale prie kasos. Meistras dirba su klientu, o telefonas skamba, žinutės kaupiasi, ir dalis klientų tiesiog nueina kitur. Rezervo leidžia klientams registruotis patiems, o salonui — matyti visą dieną vienoje vietoje.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Kaip tai veikia</h2></div>
+    <div class="stack">
+      <p>Daugelyje grožio salonų ir kirpyklų registracija vis dar vyksta telefonu, žinutėmis socialiniuose tinkluose ir popieriniame žurnale prie kasos. Meistras dirba su klientu, o telefonas skamba, žinutės kaupiasi, ir dalis klientų tiesiog nueina kitur. Rezervo leidžia klientams registruotis patiems, o salonui — matyti visą dieną vienoje vietoje.</p>
     <p>Pirmiausia surašote paslaugas — kirpimą, dažymą, manikiūrą, kosmetines procedūras — su trukme ir kaina, ir meistrus su jų darbo laiku. Kiekvienas meistras gali turėti savo paslaugų sąrašą, o paslaugos trukmė gali skirtis pagal meistrą. Kalendorius pats rodo tik tuos laikus, kurie iš tikrųjų laisvi.</p>
     <p>Klientas atsidaro jūsų registracijos puslapį telefone, pasirenka paslaugą, meistrą ir laiką ir įveda savo vardą bei telefono numerį. Registracija iš karto atsiranda meistro kalendoriuje. Nuorodą į registracijos puslapį galite įdėti į savo svetainę, socialinių tinklų profilį ir žemėlapių kortelę.</p>
     <p>Prieš vizitą klientui išsiunčiamas SMS priminimas su laiku, adresu ir galimybe atšaukti vizitą. Jei klientas atšaukia, laikas vėl tampa laisvas ir jį gali užimti kitas klientas. Priminimo laiką ir tekstą nustatote patys.</p>
@@ -114,31 +148,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Rezervo skirta grožio salonams, kirpykloms, nagų ir blakstienų studijoms, kosmetologų kabinetams nuo vieno iki kelių dešimčių meistrų. Kaina priklauso nuo darbuotojų skaičiaus.</p>
     <p>Pradėti galite per vieną vakarą. Įvedate paslaugas, meistrus ir jų darbo laiką, o esamus klientus galite įkelti iš failo ar telefono kontaktų. Registracijos puslapis gauna savo nuorodą, kurią iškart galima siųsti klientams žinute. Pirmąsias savaites galite toliau priimti registracijas telefonu ir tiesiog įrašyti jas į tą patį kalendorių, kad niekas nepasikartotų. Kai klientai įpranta registruotis patys, telefonas skamba rečiau, o meistrai gali dirbti netrukdomi. Savaitės pabaigoje matote, kiek vizitų buvo užregistruota internetu, kiek telefonu ir kiek klientų atšaukė vizitą po SMS priminimo, todėl lengviau planuoti meistrų darbo laiką ir atostogas. Jei salonas turi kelis padalinius, kiekvienas jų gali turėti savo registracijos puslapį, o savininkas mato visus kartu. Klientui nereikia kurti paskyros ar diegti programėlės: užtenka vardo ir telefono numerio, o vizito patvirtinimą jis gauna iš karto. Jei reikia, klientas gali pakeisti vizito laiką pats, pasinaudodamas nuoroda patvirtinimo žinutėje.</p>
     <p>Rezervo yra registracijos įrankis; už paslaugų kainas, darbo laiką ir klientų duomenų tvarkymą atsako salonas.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Klausimai ir atsakymai</h2>
-    <h3>Kam skirta Rezervo?</h3>
-    <p>Grožio salonams, kirpykloms, nagų ir blakstienų studijoms bei kosmetologų kabinetams.</p>
-    <h3>Ar klientai gali registruotis patys?</h3>
-    <p>Taip, internetu, pasirinkdami paslaugą, meistrą ir laiką.</p>
-    <h3>Ar siunčiami SMS priminimai?</h3>
-    <p>Taip, prieš vizitą klientas gauna SMS priminimą; laiką ir tekstą nustatote patys.</p>
-    <h3>Ar reikia ką nors diegti?</h3>
-    <p>Ne, sistema veikia naršyklėje ir telefone.</p>
-    <h3>Ar jau galiu naudotis?</h3>
-    <p>Dar ne. Paslauga ruošiama, ir tikriname, ar salonams jos reikia.</p>
+    <div class="stack"><h2>Klausimai ir atsakymai</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Kam skirta Rezervo?</h3><p>Grožio salonams, kirpykloms, nagų ir blakstienų studijoms bei kosmetologų kabinetams.</p></div>
+      <div class="split flip"><h3>Ar klientai gali registruotis patys?</h3><p>Taip, internetu, pasirinkdami paslaugą, meistrą ir laiką.</p></div>
+      <div class="split flip"><h3>Ar siunčiami SMS priminimai?</h3><p>Taip, prieš vizitą klientas gauna SMS priminimą; laiką ir tekstą nustatote patys.</p></div>
+      <div class="split flip"><h3>Ar reikia ką nors diegti?</h3><p>Ne, sistema veikia naršyklėje ir telefone.</p></div>
+      <div class="split flip"><h3>Ar jau galiu naudotis?</h3><p>Dar ne. Paslauga ruošiama, ir tikriname, ar salonams jos reikia.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Sukurkite registracijos puslapį</h2>
-    <p><label>Meistrų skaičius<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— pasirinkite —</option><option>1</option><option>2–3</option><option>4–6</option><option>Daugiau nei 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Pradėti</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Sukurkite registracijos puslapį</h2>
+    </div>
+    <div class="tile stack">
+      <label>Meistrų skaičius<select data-ev-focus="form_start"><option value="">— pasirinkite —</option><option>1</option><option>2–3</option><option>4–6</option><option>Daugiau nei 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Pradėti</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Rezervo</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privatumo politika</a></p>
-  <p class="muted">Rezervo yra registracijos įrankis; už kainas, darbo laiką ir klientų duomenų tvarkymą atsako salonas.</p>
+  <p>Rezervo yra registracijos įrankis; už kainas, darbo laiką ir klientų duomenų tvarkymą atsako salonas.</p>
 </div></footer>
 
 </body>
